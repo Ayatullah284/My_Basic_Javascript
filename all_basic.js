@@ -65,7 +65,7 @@ var price1 = 50;
 price1 -= 5;
 // console.log('5 taka dam komai mot price =', price1);
 
-// Jode 1 kore bare ba kom >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Jode 1 kore bare ba kome >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 var age = 25;
 // var age = 25 + 1;
 // age = 25 + 1;
@@ -255,9 +255,65 @@ if (5 < 6) {
 
 if (5 < 6) {
     if (5 != 5) {
-        console.log('sorter vitor sorto but taw complite');
+        // console.log('sorter vitor sorto but taw complite');
     }
     else {
-        console.log('sorter vitor sorto but complite na')
+        // console.log('sorter vitor sorto but complite na')
     }
+}
+
+
+// Loop  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>1.While  2.for
+// 1.While
+var badaNaPawaPorjontoCholteThake = 0;
+while (badaNaPawaPorjontoCholteThake < 7) {
+    badaNaPawaPorjontoCholteThake++;
+    // console.log(badaNaPawaPorjontoCholteThake);
+}
+
+// while (odd)
+var oddNumber = 1;
+while (oddNumber < 20) {
+    // console.log(oddNumber);
+    oddNumber = oddNumber + 2;
+
+}
+
+// while (even)
+var evenNumber = 2;
+while (evenNumber <= 20) {
+    // console.log(oddNumber);
+    evenNumber = evenNumber + 2;
+
+}
+
+// 2.for
+for (var forNumber = 0; forNumber < 7; forNumber++) {
+    // console.log(forNumber);
+}
+for (var i = 0; i < 7; i++) {
+    // console.log(i);
+}
+
+// for (odd)
+for (var i = 1; i < 20; i += 2) {
+    // console.log(i);
+}
+
+// for (even)
+for (var i = 2; i <= 20; i += 2) {
+    // console.log(i);
+}
+
+// run a loop for each element of an array     V.V.I  (lokma)
+var numbers = [23, 15, 34, 59, 48, 89, 45, 11, 36, 12];
+for (var i = 0; i < numbers.length; i++) {
+    var element = numbers[i];
+    // console.log(element);
+}
+
+var items = ['jam', 'kola', 'licho', 'atafol'];
+for (var i = 0; i < items.length; i++) {
+    var item = items[i];
+    console.log(item);
 }
