@@ -315,5 +315,162 @@ for (var i = 0; i < numbers.length; i++) {
 var items = ['jam', 'kola', 'licho', 'atafol'];
 for (var i = 0; i < items.length; i++) {
     var item = items[i];
-    console.log(item);
+    // console.log(item);
 }
+
+
+// function  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+function functionName() {
+
+}
+// functionName();
+
+// >>Function parameter
+function functionName(taka) {
+    console.log('parameter function kathamo is ok');
+}
+// functionName(100);
+
+
+// >>function return
+function jamardam(taka) {
+    var ektaJamarDam = 500;
+    var jamarSonkha = taka / ektaJamarDam;
+    return jamarSonkha;
+}
+var takarMan = 5000;
+var jama = jamardam(takarMan);
+// console.log('mot jama pawa jabo =', jama, 'ta');
+
+
+// Multiple parameter 
+function tinTaNumber(num1, num2, num3) {
+    var total = num1 + num2 + num3;
+    return total;
+}
+var number1 = 10;
+var number2 = 20;
+var number3 = 30;
+var resust = tinTaNumber(number1, number2, number3);
+// console.log('tinta number er jog fol =', resust, 'taka');
+
+
+// Objects  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+var book = {
+    name: 'Quran', writter: 'Allah', sura: 114, ayate: 6466, resived: 'prophet Mohammad (S)'
+}
+// console.log(book);
+
+
+var book2 = {
+    name: 'Quran',
+    writter: 'Allah',
+    vasa: 'Arabic',
+    sura: 114,
+    ayate: 6466,
+    resived: 'prophet Mohammad (S)'
+}
+// console.log(book2);
+
+// See Object property
+var book2 = {
+    name: 'Quran',
+    writter: 'Allah',
+    vasa: 'Arabic',
+    sura: 114,
+    ayate: 6466,
+    resived: 'prophet Mohammad (S)',
+    price: 600
+}
+// console.log(book2);
+// console.log(book2.writter);
+var bookName = book2.name;
+// console.log(bookName);
+book2.price = 400;
+book2['price'] = 300;
+var priceChange = 'price';
+book2[priceChange] = 250;
+// console.log(book2);
+
+
+// Javascript switch case break and default >>>>>>>>>>>>>>>>>>>>>>>>>>>
+var color = 'skyblue';
+if (color == 'blue') {
+    console.log("color is blue");
+}
+else if (color == 'green') {
+    console.log('color is green');
+}
+else if (color == 'red') {
+    console.log('color is red');
+}
+else if (color == 'white') {
+    console.log('color is white');
+}
+else if (color == 'yellow') {
+    console.log('color is yellow');
+}
+else {
+    // console.log('color is black');
+}
+
+// switch case break and default
+switch (color) {
+    case 'blue':
+        console.log('color blue');
+        break;
+    case 'red':
+        console.log('color is red');
+        break;
+    case 'white':
+        console.log('color is white');
+        break;
+    case 'green':
+        console.log('color is green');
+        break;
+    case 'yellow':
+        console.log('color is yellow');
+        break;
+    default:
+    // console.log('color is black');
+}
+
+
+// while and for loop break and continue  >>>>>>>>>>>>>>>>>>>>>>>>>>
+var i = 0;
+while (i < 10) {
+    // console.log(i);
+    if (i == 5) {
+        break;
+    }
+    i++;
+}
+for (i = 0; i < 20; i++) {
+    // console.log(i);
+    if (i == 10) {
+        break;
+    }
+}
+
+
+// break
+var numbers = ['15', '25', '36', '110', '36', '120', '130', '18'];
+for (var i = 0; i < numbers.length; i++) {
+    var number = numbers[i];
+    // console.log(number);
+    if (number > 100) {
+        break;
+    }
+}
+
+// continue (skip)
+var numbers = ['15', '25', '36', '110', '46', '120', '130', '18'];
+for (var i = 0; i < numbers.length; i++) {
+    var number = numbers[i];
+    if (number > 100) {
+        continue;
+    }
+    // console.log(number);
+}
+
+
