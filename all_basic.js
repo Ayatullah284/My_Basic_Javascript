@@ -624,21 +624,21 @@ function getFactorial(number) {
 }
 
 var result = getFactorial(7);
-// console.log(result);
+console.log(result);
 
 // Factorial using a while loop or a decrementing loop
-// function getFactorial(number) {
-//     var factorial = 1;
-//     var i = 1;
-//     while (i <= number) {
-//         factorial = factorial * i;
-//         i++;
-//     }
-//     return factorial;
-// }
+function getFactorial(number) {
+    var factorial = 1;
+    var i = 1;
+    while (i <= number) {
+        factorial = factorial * i;
+        i++;
+    }
+    return factorial;
+}
 
-// var result = getFactorial(7);
-// // console.log(result);
+var result = getFactorial(7);
+// console.log(result);
 
 function getFactorial2(number) {
     var factorial = 1;
